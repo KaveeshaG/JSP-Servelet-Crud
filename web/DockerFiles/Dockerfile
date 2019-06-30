@@ -1,3 +1,3 @@
 FROM tomcat:9.0
-ADD JSP-Servelet-Crud
+ADD root/JSP-Servelet-Crud
 CMD ["catalina.sh", "run"]
