@@ -1,3 +1,3 @@
 FROM tomcat:9.0
-ADD root/JSP-Servelet-Crud
+ADD . /lstat/root/JSP-Servelet-Crud/DockerFiles
 CMD ["catalina.sh", "run"]
